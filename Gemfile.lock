@@ -802,6 +802,8 @@ GEM
     sentry-rails (4.2.0)
       rails (>= 5.0)
       sentry-ruby-core (~> 4.2.0)
+    sentry-raven (3.1.1)
+      faraday (>= 1.0)
     sentry-ruby (4.2.0)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       faraday (>= 1.0)
@@ -933,6 +935,7 @@ DEPENDENCIES
   ruby-progressbar
   sendgrid-ruby
   sentry-rails
+  sentry-raven
   sentry-ruby
   sentry-sidekiq
   sidekiq
