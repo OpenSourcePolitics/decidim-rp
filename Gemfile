@@ -4,12 +4,12 @@ source "https://rubygems.org"
 
 ruby RUBY_VERSION
 
-gem "decidim", "0.24.1"
+gem "decidim", "0.24.2"
 # gem "decidim", path: "../decidim"
 
-gem "decidim-conferences", "0.24.1"
-gem "decidim-consultations", "0.24.1"
-gem "decidim-initiatives", "0.24.1"
+gem "decidim-conferences", "0.24.2"
+gem "decidim-consultations", "0.24.2"
+gem "decidim-initiatives", "0.24.2"
 
 # gem "decidim-calendar", git: "https://github.com/alabs/decidim-module-calendar"
 # gem "decidim-combined_budgeting", git: "https://github.com/mainio/decidim-module-combined_budgeting"
@@ -41,7 +41,7 @@ gem "sprockets", "~> 3.7"
 group :development, :test do
   gem "byebug", "~> 11.0", platform: :mri
 
-  gem "decidim-dev", "0.24.1"
+  gem "decidim-dev", "0.24.2"
   # gem "decidim-dev", path: "../decidim"
 end
 
